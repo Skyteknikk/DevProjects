@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: my-personal-computer
+pool: NordSkyteknikk-Pool
 strategy:
   matrix:
     Python36:
@@ -28,4 +28,4 @@ steps:
 - script: |
     pip install pytest pytest-azurepipelines
     pytest
-  displayName: 'pytest
+  displayName: 'pytest'
